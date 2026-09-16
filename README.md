@@ -132,69 +132,8 @@ The analysis can help a business:
 * Investigate the relationship between support escalations and churn
 * Develop targeted customer-retention strategies
 
-## 📁 Project Structure
-
-```text
-customer-churn-analysis/
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── notebooks/
-│   └── churn_analysis.ipynb
-│
-├── data/
-│   └── exported_churn_data.csv
-│
-├── database/
-│   └── customer_churn.db
-│
-└── images/
-```
-
-## 🚀 How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/customer-churn-analysis.git
-```
-
-### 2. Open the project folder
-
-```bash
-cd customer-churn-analysis
-```
-
-### 3. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Start Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-### 5. Open
-
-```text
-notebooks/churn_analysis.ipynb
-```
-
-Run the notebook cells from top to bottom.
-
-## ⚠️ Data Privacy
-
-Do not upload real customer personally identifiable information (PII) to a public GitHub repository.
-
-If the dataset contains real customer information, replace it with anonymized or synthetic data before making the repository public.
-
 ## 👤 Author
 
-**Your Name**
+**Sahil Rawat**
 
 Data Analytics Portfolio Project
