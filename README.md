@@ -2,9 +2,11 @@
 
 ## 📊 Project Overview
 
-This project analyzes customer churn using Python, Pandas, SQL/SQLite, Matplotlib, and Seaborn.
+This project analyzes customer churn using **Python, Pandas, SQL/SQLite, Matplotlib, and Seaborn**.
 
 The objective is to understand customer churn patterns, identify factors associated with churn, and generate useful business insights from customer, subscription, and support data.
+
+---
 
 ## 🎯 Project Objectives
 
@@ -21,17 +23,21 @@ The objective is to understand customer churn patterns, identify factors associa
 * Compare churn across states, plans, and contract types
 * Use pivot tables for business-oriented analysis
 
+---
+
 ## 🗂️ Dataset
 
-The project uses customer data stored in a SQLite database.
+The project uses customer data stored in a **SQLite database**.
 
 The database contains three main tables:
 
-* `db_customer` — customer information
-* `db_subscription` — subscription and churn information
-* `db_support` — customer support information
+* `db_customer` — Customer information
+* `db_subscription` — Subscription and churn information
+* `db_support` — Customer support information
 
 The analysis combines these tables using `customerid`.
+
+---
 
 ## 🛠️ Tools & Technologies
 
@@ -49,11 +55,13 @@ The analysis combines these tables using `customerid`.
 * Data Visualization
 * Pivot Tables
 
+---
+
 ## 🔄 Project Workflow
 
 ### 1. Data Import
 
-The customer, subscription, and support data are loaded from the SQLite database.
+Customer, subscription, and support data are loaded from the SQLite database.
 
 ### 2. Data Cleaning
 
@@ -94,36 +102,50 @@ The notebook calculates important business KPIs such as:
 
 ### 5. Data Visualization
 
-The project uses Matplotlib and Seaborn to visualize:
+The project uses Matplotlib and Seaborn to visualize customer churn patterns.
 
-* Monthly churn trends
-![Monthlychurn](Monthlychurn.png)
-* Churn by plan
-![Churnbyplan](Churnbyplan.png)
-* Churn by state
-![Churnbystate](Churnbystate.png)
-* Correlations between variables
-![Correlations](Correlations.png)
-* Customer characteristics by churn risk
+#### Monthly Churn
+
+![Monthly Churn](Monthlychurn.png)
+
+#### Churn by Plan
+
+![Churn by Plan](Churnbyplan.png)
+
+#### Churn by State
+
+![Churn by State](Churnbystate.png)
+
+#### Correlation Analysis
+
+![Correlation Analysis](Correlations.png)
+
+The notebook also includes additional visualizations for customer characteristics and churn risk.
 
 ### 6. Pivot Table Analysis
 
 Pivot tables are used to summarize customer churn and revenue-related metrics across different customer segments.
 
+---
+
 ## 📈 Key Results
 
 Based on the provided dataset:
 
-* Total customers: **21**
-* Churned customers: **6**
-* Churn rate: **28.57%**
-* Retention rate: **71.43%**
-* ARPU: approximately **18.85**
-* Monthly revenue at risk from churned customers: approximately **73.94**
+| Metric                  |     Result |
+| ----------------------- | ---------: |
+| Total Customers         |     **21** |
+| Churned Customers       |      **6** |
+| Churn Rate              | **28.57%** |
+| Retention Rate          | **71.43%** |
+| ARPU                    |  **18.85** |
+| Monthly Revenue at Risk |  **73.94** |
 
 The analysis also shows differences in churn across subscription plans and customer segments.
 
-These results are descriptive findings from the supplied dataset and should not be interpreted as causal conclusions.
+> **Note:** These are descriptive findings from the supplied dataset and should not be interpreted as causal conclusions.
+
+---
 
 ## 💡 Business Insights
 
@@ -132,9 +154,12 @@ The analysis can help a business:
 * Identify customer segments with higher churn
 * Monitor subscription plans with elevated churn
 * Identify customers with higher churn-risk scores
-* Understand the potential revenue exposure from churn
+* Understand potential revenue exposure from churn
 * Investigate the relationship between support escalations and churn
 * Develop targeted customer-retention strategies
+  
+---
+
 
 ## 👤 Author
 
