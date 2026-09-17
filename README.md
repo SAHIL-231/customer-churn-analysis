@@ -97,6 +97,7 @@ The notebook calculates important business KPIs such as:
 The project uses Matplotlib and Seaborn to visualize:
 
 * Monthly churn trends
+  (Images/Monthlychurn.png)
 * Churn by plan
 * Churn by state
 * Correlations between variables
