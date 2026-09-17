@@ -99,8 +99,11 @@ The project uses Matplotlib and Seaborn to visualize:
 * Monthly churn trends
  ![](Monthlychurn.png)
 * Churn by plan
+  ![](Churnbyplan.png)
 * Churn by state
+  ![](Churnbystate.png)
 * Correlations between variables
+  ![](Correlations.png)
 * Customer characteristics by churn risk
 
 ### 6. Pivot Table Analysis
